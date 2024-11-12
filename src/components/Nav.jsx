@@ -11,7 +11,7 @@ const Nav = () => {
   };
 
   return (
-    <header className='padding-x py-8 absolute z-10 w-full'>
+    <header className='padding-x py-8 absolute z-30 w-full'>
       <nav className='flex justify-between items-center max-container'>
         <a href='/'>
           <img
@@ -43,7 +43,7 @@ const Nav = () => {
           <img src={hamburger} alt='hamburger icon' width={25} height={25} />
         </div>
         {isMenuOpen && (
-          <div className='fixed top-0 right-0 w-2/3 max-w-xs h-full bg-white shadow-lg z-20 transition-transform transform translate-x-0 max-lg:block'>
+          <div className='fixed top-0 right-0 w-2/3 max-w-xs h-full bg-white shadow-lg z-40 transition-transform transform translate-x-0 max-lg:block'>
             <button
               onClick={handleMenuToggle}
               className='absolute top-4 right-4 text-2xl font-bold'
@@ -68,7 +68,7 @@ const Nav = () => {
       </nav>
       {isMenuOpen && (
         <div
-          className='fixed inset-0 bg-black opacity-50 z-10'
+          className='fixed inset-0 bg-black opacity-50 z-30'
           onClick={handleMenuToggle}
         ></div>
       )}
