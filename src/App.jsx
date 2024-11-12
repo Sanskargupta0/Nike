@@ -1,7 +1,11 @@
+import { Nav } from "./components";
+
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <main className='relative'>
+      <Nav />
+    </main>
+  );
+};
 
-export default App
+export default App;
