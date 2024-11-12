@@ -41,7 +41,7 @@ and many more, including code architecture and reusability
 
 ## Demo
 
-Check out the live demo of the project [here](https://vercel.com/sanskargupta0s-projects/nike).
+Check out the live demo of the project [here](https://nike-sanskargupta0s-projects.vercel.app/).
 
 ## Screenshots
 
@@ -65,7 +65,7 @@ Make sure you have the following installed on your machine:
 
 ```bash
 git clone https://github.com/Sanskargupta0/Nike.git
-cd Travel
+cd Nike
 ```
 
 **Installation**
